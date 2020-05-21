@@ -1,0 +1,34 @@
+{
+  "name": "node-express-base",
+  "version": "1.0.0",
+  "description": "The default node and express with dependencies needed for my daily projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhikanbiya/NodeExpressBase.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "dhikanbiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhikanbiya/NodeExpressBase/issues"
+  },
+  "homepage": "https://github.com/dhikanbiya/NodeExpressBase#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4"
+  }
+}
